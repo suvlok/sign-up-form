@@ -4,9 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello</h1>
+    <div class="left_side">
+        <div class="img_description">
+            <p>Photo by: John Doe</p>
+        </div>
+        <div class="logo_container">
+            <img src = "./images/placeholder_logo.png" id="logo">
+        </div>
+    </div>
+
+    <div class="right_side">
+        <div class = "greeting">
+            <p>This page is not official at all! It is simply for practise. To achieve the <em>impossible</em>, sign up now to get started</p>
+            <p>Please enter your details below</p>
+        </div>
+
+        <div class = "enter_details">
+            <p>Let's do this!</p>
+            <form action="example.com/path" method="post">
+
+                <div class = "allInputs">
+                    <label for="firstName">FIRST NAME</label><br>
+                    <input type="text" id="firstName"><br>
+
+                    <label for="lastName">LAST NAME</label><br>
+                    <input type="text" id="lastName"><br>
+
+                    <label for="email">EMAIL</label><br>
+                    <input type="email" id="email"><br>
+                    
+                    <label for="phoneNumber">PHONE NUMBER</label><br>
+                    <input type="email" id="phoneNumber" required><br>
+
+                    <label for="password">PASSWORD</label><br>
+                    <input type="password" id="password"><br>
+
+                    <label for="confirmPassword">CONFIRM PASSWORD</label><br>
+                    <input type="password" id="confirmPassword"><br>
+
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? Log in</p>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
