@@ -34,3 +34,69 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+
+.right_side{
+    position: relative;
+    width: 60%;
+    background-color: whitesmoke;
+}
+
+.greeting{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    position: relative;
+    left: 5%;
+    top: 10%;
+    width: 80%;
+}
+
+.details_container{
+    position: relative;
+    top: 20%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width:100%;
+}
+
+.item_1{
+    position: relative;
+    left: 2%;
+}
+
+.item_2{
+    position: absolute;
+    float: left;
+    left: 40%;
+    top: 16%;
+}
+
+.item_3{
+    position: relative;
+    left: 2%;
+}
+
+.item_4{
+    position: absolute;
+    float: left;
+    left: 40%;
+    top: 35%;
+}
+
+.item_5{
+    position: relative;
+    left: 2%;
+}
+
+.item_6{
+    position: absolute;
+    float: left;
+    left: 40%;
+    top: 54%;
+}
+
+#create_account_button{
+    position: relative;
+    top: 1ch;
+    left: 3ch;
+}
+

@@ -19,35 +19,45 @@
 
     <div class="right_side">
         <div class = "greeting">
-            <p>This page is not official at all! It is simply for practise. To achieve the <em>impossible</em>, sign up now to get started</p>
-            <p>Please enter your details below</p>
+            <p>This page is not official at all! It is simply for practise. To achieve the <em>impossible</em>, sign up now to get started.</p>
+            <p>You <em>know</em> you want to.</p>
         </div>
 
-        <div class = "enter_details">
-            <p>Let's do this!</p>
+        <div class = "details_container">
             <form action="example.com/path" method="post">
-
+                <p class="item_1">Let's do this!</p>
                 <div class = "allInputs">
-                    <label for="firstName">FIRST NAME</label><br>
-                    <input type="text" id="firstName"><br>
-
-                    <label for="lastName">LAST NAME</label><br>
-                    <input type="text" id="lastName"><br>
-
-                    <label for="email">EMAIL</label><br>
-                    <input type="email" id="email"><br>
+                    <div class="item_1">
+                        <label for="firstName">FIRST NAME</label><br>
+                        <input type="text" id="firstName"><br>
+                    </div>
                     
-                    <label for="phoneNumber">PHONE NUMBER</label><br>
-                    <input type="email" id="phoneNumber" required><br>
+                    <div class="item_2">
+                        <label for="lastName">LAST NAME</label><br>
+                        <input type="text" id="lastName"><br>
+                    </div>
 
-                    <label for="password">PASSWORD</label><br>
-                    <input type="password" id="password"><br>
+                    <div class="item_3">
+                        <label for="email">EMAIL</label><br>
+                        <input type="email" id="email"><br>
+                    </div>
 
-                    <label for="confirmPassword">CONFIRM PASSWORD</label><br>
-                    <input type="password" id="confirmPassword"><br>
+                    <div class="item_4">
+                        <label for="phoneNumber">PHONE NUMBER</label><br>
+                        <input type="email" id="phoneNumber" required><br>
+                    </div>
 
-                    <button type="submit">Create Account</button>
-                    <p>Already have an account? Log in</p>
+                    <div class="item_5">
+                        <label for="password">PASSWORD</label><br>
+                        <input type="password" id="password"><br>
+                    </div>
+
+                    <div class="item_6">
+                        <label for="confirmPassword">CONFIRM PASSWORD</label><br>
+                        <input type="password" id="confirmPassword"><br>
+                    </div>
+                    <button type="submit" id="create_account_button">Create Account</button>
+                    <p class="item_1">Already have an account? Log in</p>
                 </div>
             </form>
         </div>
